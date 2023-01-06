@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
+<div align="center" id="readme-top">
    <img src="./src/game-logos/pokedex.png" alt="Logo" width="auto" height="80">
 
   <h3 align="center">Pokedex & ShinyDex</h3>

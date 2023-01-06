@@ -52,7 +52,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="./src/game-logos/screenshot.png" alt="Screenshot" />
+<img src="./src/game-logos/screenshot.PNG" alt="Logo" width="auto">
 
 Nostalgia is a powerful feeling, mine is particularly triggered when it comes to my childhood game: Pokemon. Many websites require an account to keep track of its pokedex completion and shiny hunt, I aim to get up to speed with Typescript by building one based on localstorage.
 

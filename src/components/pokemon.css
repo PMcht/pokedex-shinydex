@@ -1,0 +1,39 @@
+
+/* Pokemon List Style */
+
+.collection-container {
+    color:white;
+    margin: 2rem auto;
+    font-weight: 600;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70vw;
+    border-radius: 1em;
+    border: 0.0625em solid #dedede;
+}
+.overlay{
+    width:100vw;
+    height: 100vh;
+}
+.detail-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    box-sizing: border-box;
+}
+.pokemon-list-container{
+    display: flex;
+    cursor:pointer;
+    flex-direction: column;
+    background-color: rgba(167, 167, 167, 0.027);
+    filter: drop-shadow(0 0 0.5px #1b1b1b);
+    margin:1.5rem;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+

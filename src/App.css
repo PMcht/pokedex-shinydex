@@ -1,0 +1,72 @@
+/* General Styling */
+
+.App {
+  text-align: center;
+  background-color: #F0F0F0;
+}
+
+[data-theme='Shiny'] .Normal {
+  display: none;
+}
+
+[data-theme='Shiny'] .Shiny {
+  display: block;
+}
+
+[data-theme='Normal'] .Shiny {
+  display: none;
+}
+
+[data-theme='Normal'] .Normal {
+  display: block;
+}
+
+.Normal.false, .Shiny.false{
+  opacity: 0.2;
+}
+
+
+
+/* Header Styling */
+
+#logo{
+  max-width: 30rem;
+}
+
+.pokemon-header{
+  padding: 2rem 0;
+}
+
+.pokemon-header h1{
+  padding: 0;
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.Filters-Container{
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+}
+
+.Filters-Container > *{
+  margin: 0 4rem;
+}
+
+.item{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#form{
+  width: auto
+}
+
+.container-switch{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

@@ -66,7 +66,6 @@ const App = () => {
               </FormControl>
             <Switcher />
           </div>
-
         </header>
 
 
